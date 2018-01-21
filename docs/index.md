@@ -132,6 +132,7 @@ We have introduced a structured learning machine which is explicitly informed by
 This work received support by the DARPA EQUiPS grant N66001-15-2-4055, the MURI/ARO grant W911NF-15-1-0562, and the AFOSR grant FA9550-17-1-0013. All data and codes are publicly available on [GitHub](https://github.com/maziarraissi/HPM).
 
 * * * * *
+## Citation
 
 	@article{raissi2017hidden,
 	  title={Hidden physics models: Machine learning of nonlinear partial differential equations},
