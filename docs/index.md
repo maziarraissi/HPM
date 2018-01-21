@@ -2,7 +2,7 @@
 layout: default
 ---
 ### Authors
-[Maziar Raissi](http://www.dam.brown.edu/people/mraissi/), [Paris Perdikaris](https://www.seas.upenn.edu/directory/profile.php?ID=237), and [George Em Karniadakis](https://www.brown.edu/research/projects/crunch/george-karniadakis)
+[Maziar Raissi](http://www.dam.brown.edu/people/mraissi/) and [George Em Karniadakis](https://www.brown.edu/research/projects/crunch/george-karniadakis)
 
 ### Abstract
 
