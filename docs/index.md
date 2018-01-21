@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-### Author
-[Maziar Raissi](http://www.dam.brown.edu/people/mraissi/)
+### Authors
+[Maziar Raissi](http://www.dam.brown.edu/people/mraissi/), [Paris Perdikaris](https://www.seas.upenn.edu/directory/profile.php?ID=237), and [George Em Karniadakis](https://www.brown.edu/research/projects/crunch/george-karniadakis)
 
 ### Abstract
 
@@ -108,7 +108,7 @@ The [Kuramoto-Sivashinsky](https://www.encyclopediaofmath.org/index.php/Kuramoto
 [Navier-Stokes](https://en.wikipedia.org/wiki/Navier–Stokes_existence_and_smoothness) equations describe the physics of many phenomena of scientific and engineering interest. They may be used to model the weather, ocean currents, water flow in a pipe and air flow around a wing. The Navier-Stokes equations in their full and simplified forms help with the design of aircraft and cars, the study of blood flow, the design of power stations, the analysis of the dispersion of pollutants, and many other applications.
 
 ![](http://www.dam.brown.edu/people/mraissi/assets/img/NavierStokes.png)
-> Navier-Stokes equations: A single snapshot of the vorticity field of a solution to the Navier-Stokes equations for the fluid flow past a cylinder is depicted in the top panel. The black box in this panel specifies the sampling region. Two snapshots of the velocity field being 0.02 apart are plotted in the two middle panels. The black crosses denote the locations of the training data points. The correct partial differential equation along with the identified ones are reported in the lower panel. Here, u denotes the x-component of the velocity field, v the y-component, p the pressure, and w the vorticity field.
+> _Navier-Stokes equations:_ A single snapshot of the vorticity field of a solution to the Navier-Stokes equations for the fluid flow past a cylinder is depicted in the top panel. The black box in this panel specifies the sampling region. Two snapshots of the velocity field being 0.02 apart are plotted in the two middle panels. The black crosses denote the locations of the training data points. The correct partial differential equation along with the identified ones are reported in the lower panel. Here, u denotes the x-component of the velocity field, v the y-component, p the pressure, and w the vorticity field.
 
 * * * * *
 
@@ -117,7 +117,7 @@ The [Kuramoto-Sivashinsky](https://www.encyclopediaofmath.org/index.php/Kuramoto
 [Fractional](https://en.wikipedia.org/wiki/Fractional_calculus) operators often arise in modeling anomalous diffusion processes and other non-local interactions. Integer values can model classical advection and diffusion phenomena. However, under the fractional calculus setting, the fractional order can assume real values and thus continuously interpolate between inherently different model behaviors. The proposed framework allows the fractional order to be directly inferred from noisy data, and opens the path to a flexible formalism for model discovery and calibration.
 
 ![](http://www.dam.brown.edu/people/mraissi/assets/img/Fractional_Levy.png)
-> Fractional Equation -- alpha-stable Levy process: A single realization of an alpha-stable Levy process is depicted in the top panel. Two histograms of the particle's displacement, being 0.01 apart, are plotted in the middle panel. The correct partial differential equation along with the identified ones are reported in the lower panel.
+> _Fractional Equation -- alpha-stable Levy process:_ A single realization of an alpha-stable Levy process is depicted in the top panel. Two histograms of the particle's displacement, being 0.01 apart, are plotted in the middle panel. The correct partial differential equation along with the identified ones are reported in the lower panel.
 
 * * * * *
 
