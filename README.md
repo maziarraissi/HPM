@@ -11,10 +11,16 @@ For more details, please refer to the following: (https://maziarraissi.github.io
 ## Citation
 
 	@article{raissi2017hidden,
+	  title={Hidden Physics Models: Machine Learning of Nonlinear Partial Differential Equations},
+	  author={Raissi, Maziar and Karniadakis, George Em},
+	  journal={arXiv preprint arXiv:1708.00588},
+	  year={2017}
+	}
+
+	@article{raissi2017hidden,
 	  title={Hidden physics models: Machine learning of nonlinear partial differential equations},
 	  author={Raissi, Maziar and Karniadakis, George Em},
 	  journal={Journal of Computational Physics},
 	  year={2017},
 	  publisher={Elsevier}
 	}
-
