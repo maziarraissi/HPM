@@ -2,7 +2,7 @@
 layout: default
 ---
 ### Authors
-[Maziar Raissi](http://www.dam.brown.edu/people/mraissi/) and [George Em Karniadakis](https://www.brown.edu/research/projects/crunch/george-karniadakis)
+[Maziar Raissi](https://maziarraissi.github.io/) and [George Em Karniadakis](https://www.brown.edu/research/projects/crunch/george-karniadakis)
 
 ### Abstract
 
@@ -53,11 +53,11 @@ Here, $$\theta$$ denotes the hyper-parameters of the covariance function $$k$$. 
 
 $$
 \begin{bmatrix}
-h^{n} \\ 
+h^{n} \\
 h^{n-1}
 \end{bmatrix}
 \sim \mathcal{GP}\left(0, \begin{bmatrix}
-k^{n,n} & k^{n,n-1}\\ 
+k^{n,n} & k^{n,n-1}\\
 k^{n-1,n} & k^{n-1,n-1}
 \end{bmatrix}
 \right).
@@ -76,14 +76,14 @@ $$
 $$
 
 where $$\mathbf{h} = \begin{bmatrix}
-\mathbf{h}^n \\ 
+\mathbf{h}^n \\
 \mathbf{h}^{n-1}
 \end{bmatrix}
 $$, $$p(\mathbf{h} | \theta, \lambda, \sigma^2) = \mathcal{N}\left(\mathbf{0}, \mathbf{K}\right)$$, and $$\mathbf{K}$$ is given by
 
 $$
 \mathbf{K} = \begin{bmatrix}
-k^{n,n}(\mathbf{x}^{n},\mathbf{x}^{n}) & k^{n,n-1}(\mathbf{x}^{n},\mathbf{x}^{n-1})\\ 
+k^{n,n}(\mathbf{x}^{n},\mathbf{x}^{n}) & k^{n,n-1}(\mathbf{x}^{n},\mathbf{x}^{n-1})\\
 k^{n-1,n}(\mathbf{x}^{n-1},\mathbf{x}^{n}) & k^{n-1,n-1}(\mathbf{x}^{n-1},\mathbf{x}^{n-1})
 \end{bmatrix} + \sigma^2 \mathbf{I}.
 $$
@@ -98,7 +98,7 @@ Here, $$N$$ is the total number of data points in $$\mathbf{h}$$. Moreover, $$\s
 
 The [Kuramoto-Sivashinsky](https://www.encyclopediaofmath.org/index.php/Kuramoto-Sivashinsky_equation) equation is a canonical model of a pattern forming system with spatio-temporal chaotic behavior. The sign of the second derivative term is such that it acts as an energy source and thus has a destabilizing effect. The nonlinear term, however, transfers energy from low to high wave numbers where the stabilizing fourth derivative term dominates.
 
-![](http://www.dam.brown.edu/people/mraissi/assets/img/KS.png)
+![](https://maziarraissi.github.io/assets/img/KS.png)
 > _Kuramoto-Sivashinsky equation:_ A solution to the Kuramoto-Sivashinsky equation is depicted in the top panel. The two white vertical lines in this panel specify the locations of the two randomly selected snapshots. These two snapshots are 0.4 apart and are plotted in the middle panel. The red crosses denote the locations of the training data points. The correct partial differential equation along with the identified ones are reported in the lower panel.
 
 * * * * *
@@ -107,7 +107,7 @@ The [Kuramoto-Sivashinsky](https://www.encyclopediaofmath.org/index.php/Kuramoto
 
 [Navier-Stokes](https://en.wikipedia.org/wiki/Navier–Stokes_existence_and_smoothness) equations describe the physics of many phenomena of scientific and engineering interest. They may be used to model the weather, ocean currents, water flow in a pipe and air flow around a wing. The Navier-Stokes equations in their full and simplified forms help with the design of aircraft and cars, the study of blood flow, the design of power stations, the analysis of the dispersion of pollutants, and many other applications.
 
-![](http://www.dam.brown.edu/people/mraissi/assets/img/NavierStokes.png)
+![](https://maziarraissi.github.io/assets/img/NavierStokes.png)
 > _Navier-Stokes equations:_ A single snapshot of the vorticity field of a solution to the Navier-Stokes equations for the fluid flow past a cylinder is depicted in the top panel. The black box in this panel specifies the sampling region. Two snapshots of the velocity field being 0.02 apart are plotted in the two middle panels. The black crosses denote the locations of the training data points. The correct partial differential equation along with the identified ones are reported in the lower panel. Here, u denotes the x-component of the velocity field, v the y-component, p the pressure, and w the vorticity field.
 
 * * * * *
@@ -116,7 +116,7 @@ The [Kuramoto-Sivashinsky](https://www.encyclopediaofmath.org/index.php/Kuramoto
 
 [Fractional](https://en.wikipedia.org/wiki/Fractional_calculus) operators often arise in modeling anomalous diffusion processes and other non-local interactions. Integer values can model classical advection and diffusion phenomena. However, under the fractional calculus setting, the fractional order can assume real values and thus continuously interpolate between inherently different model behaviors. The proposed framework allows the fractional order to be directly inferred from noisy data, and opens the path to a flexible formalism for model discovery and calibration.
 
-![](http://www.dam.brown.edu/people/mraissi/assets/img/Fractional_Levy.png)
+![](https://maziarraissi.github.io/assets/img/Fractional_Levy.png)
 > _Fractional Equation -- alpha-stable Levy process:_ A single realization of an alpha-stable Levy process is depicted in the top panel. Two histograms of the particle's displacement, being 0.01 apart, are plotted in the middle panel. The correct partial differential equation along with the identified ones are reported in the lower panel.
 
 * * * * *
@@ -141,4 +141,3 @@ This work received support by the DARPA EQUiPS grant N66001-15-2-4055, the MURI/
 	  year={2017},
 	  publisher={Elsevier}
 	}
-
